@@ -3,14 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculadora de IRPF</title>
 </head>
 <body>
     <div>
         <h1>CALCULAR IMPOSTO DE RENDA</h1>
     </div>
     <div>
-        <form action=""></form>
+        <label for="salario">Salario Mensal</label>
+        <input id="salario" type="number">
+
+        <button type="button" onclick="calcular()">Calcular</button>
+        <button type="button" onclick="limpar()">limpar</button>
     </div>
+
+    <div id="resultado"></div>
+
 </body>
 </html>
