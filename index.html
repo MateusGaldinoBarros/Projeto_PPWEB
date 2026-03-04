@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora de IRPF</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div>
@@ -11,13 +12,13 @@
     </div>
     <div>
         <label for="salario">Salario Mensal</label>
-        <input id="salario" type="number">
+        <input id="salario" class="caixa_input" type="number">
 
-        <button type="button" onclick="calcular()">Calcular</button>
-        <button type="button" onclick="limpar()">limpar</button>
+        <button type="button" class="meu_botao" onclick="calcular()">Calcular</button>
+        <button type="button" class="meu_botao" onclick="limpar()">limpar</button>
     </div>
 
-    <div id="resultado"></div>
+    <div id="resultado" class="caixa_resultado">TESTE</div>
 
 </body>
 </html>

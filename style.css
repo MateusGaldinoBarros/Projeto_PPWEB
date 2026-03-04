@@ -1,0 +1,29 @@
+.meu_botao {
+    background-color: #2563eb;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+}
+.caixa_resultado {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.caixa_input {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
