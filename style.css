@@ -7,14 +7,19 @@
     font-size: 16px;
     margin-top: 16px;
 }
+
+
+
 .caixa_resultado {
     background-color: white;
     padding: 30px;
     border-radius: 8px;
     font-size: 18px;
-    margin-top: 20px;
     box-shadow: 0 4px 20px rgba(0,0,0,0.08);
     display: none;
+    text-align: center;
+    margin: 20px auto 0 auto;
+    width: 90%;
     
 }
 .caixa_input {
@@ -39,17 +44,19 @@ body {
 }
 @media (max-width: 480px) {
     .card {
+        padding:20px;
+    }
+
+}
+.card {
     background-color: white;
-    padding: 20px;
+    padding: 40px;
     border-radius: 16px;
     box-shadow: 0 4px 20px rgba(0,0,0,0.08);
     width: 90%;
     max-width: 600px;
     text-align: center;
-
 }
-}
-
 
 h1 {
     font-size: 24px;
