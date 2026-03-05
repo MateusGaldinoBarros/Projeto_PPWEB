@@ -5,13 +5,17 @@
     border: none;
     border-radius: 8px;
     font-size: 16px;
+    margin-top: 16px;
 }
 .caixa_resultado {
     background-color: white;
-    padding: 20px;
+    padding: 30px;
     border-radius: 8px;
     font-size: 18px;
     margin-top: 20px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    display: none;
+    
 }
 .caixa_input {
     width: 300px;
@@ -19,6 +23,10 @@
     font-size: 16px;
     border: 1px solid #cccccc;
     border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    
 }
 body {
     display: flex;
@@ -26,4 +34,18 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    background-color: #f0f2f5;
+    font-family: 'Inter', sans-serif;
 }
+
+.card {
+    background-color: white;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    width: 600px;
+    text-align: center;
+}
+
+
+

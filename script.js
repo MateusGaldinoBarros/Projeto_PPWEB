@@ -3,12 +3,14 @@ function calcular() {
     const imposto = calcularImposto(salario);
     const aliquota = calcularPorcentagem(salario,imposto);
     
+    document.getElementById("resultado").style.display="block";
     document.getElementById("resultado").innerHTML = "imposto: R$ " + imposto.toFixed(2) + "<br> Aliquota efetiva: " + aliquota.toFixed(2) + "%";
 
 }
 
 function limpar() {
     document.getElementById("salario").value = "";
+    document.getElementById("resultado").style.display="none";
     document.getElementById("resultado").innerHTML = "";
 }
 
